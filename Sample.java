@@ -11,5 +11,6 @@ class Sample{
 		else{
 			System.out.println("Negative");
 		}
+		//Sample
 	}
 }
