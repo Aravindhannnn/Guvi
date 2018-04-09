@@ -1,0 +1,61 @@
+int gas =  13; //Connect Your Sensor pin
+int gas_status=0,chk=0;
+
+void GSM_Init();
+void MSG_Send();
+
+void setup()
+{
+  pinMode(gas, INPUT);
+  delay(1000);
+  Serial.begin(9600);
+  delay(1000);
+  GSM_Init();delay(1000);
+}
+
+void loop()
+{
+//Here You can write your calculate function 
+   gas_status=digitalRead(gas);
+   
+   if(gas_status == HIGH)
+   {
+      chk=0;
+   }
+   
+   else if(gas_status == LOW && chk == 0)
+   {
+     chk=1;
+     MSG_Send();//sending message function call
+   }   
+}
+
+void GSM_Init()
+{
+  Serial.write("AT");
+  Serial.write(0x0d);Serial.write(0x0a);
+  delay(1000);delay(1000);
+  Serial.write("AT+CMGF=1");  
+  Serial.write(0x0d);Serial.write(0x0a);
+  delay(1000);delay(1000);
+  Serial.write("AT+CNMI=2,2,0,0,0");
+  Serial.write(0x0d);Serial.write(0x0a);
+  delay(1000);delay(1000);
+}
+
+void MSG_Send()
+{
+  Serial.write("AT+CMGS=");
+  Serial.write('"');
+  Serial.write("8883311311");//change your phone number
+  Serial.write('"');  
+  Serial.write(0x0d);Serial.write(0x0a);
+  delay(1000);delay(1000);
+  Serial.write("GAS LEAKAGE DETECTED ");//change your content to send in sms
+  delay(1000);delay(1000);
+  Serial.write(0x1a);
+  delay(1000);delay(1000);
+}
+
+
+
