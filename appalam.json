@@ -1,0 +1,64 @@
+{
+  "actors": [
+    {
+      "name": "Brad Pitt",
+      "description": "William Bradley 'Brad' Pitt is an American actor and film producer. He has received a Golden Globe Award, a Screen Actors Guild Award, and three Academy Award nominations in acting categories",
+      "dob": "December 18, 1963",
+      "country": "United States",
+      "height": "1.80 m",
+      "spouse": "Jennifer Aniston",
+      "children": "Shiloh Nouvel Jolie-Pitt, Maddox Chivan Jolie-Pitt",
+      "image": "http://indianspicemart.co.uk/ekmps/shops/641753/images/appalam-833-p.png"
+    },
+    {
+      "name": "Tom Cruise",
+      "description": "Tom Cruise, is an American film actor and producer. He has been nominated for three Academy Awards and has won three Golden Globe Awards. He started his career at age 19 in the 1981 film Endless Love.",
+      "dob": "July 3, 1962",
+      "country": "United States",
+      "height": "1.70 m",
+      "spouse": "Katie Holmes",
+      "children": "Suri Cruise, Isabella Jane Cruise, Connor Cruise",
+      "image": "https://cdn.shopify.com/s/files/1/1509/8700/products/Ulundhu_Urad_Appalam_1024x1024.jpg?v=1475666296"
+    },
+    {
+      "name": "Johnny Depp",
+      "description": "John Christopher 'Johnny' Depp II is an American actor, film producer, and musician. He has won the Golden Globe Award and Screen Actors Guild award for Best Actor.",
+      "dob": "June 9, 1963",
+      "country": "United States",
+      "height": "1.78 m",
+      "spouse": "Lori Anne Allison",
+      "children": "Lily-Rose Melody Depp, John 'Jack' Christopher Depp III",
+      "image": "http://microblogging.wingnity.com/JSONParsingTutorial/johnny.jpg"
+    },
+    {
+      "name": "Angelina Jolie",
+      "description": "Angelina Jolie is an American actress, film director, screenwriter, and author. She has received an Academy Award, two Screen Actors Guild Awards, and three Golden Globe Awards.",
+      "dob": "June 4, 1975",
+      "country": "United States",
+      "height": "1.69 m",
+      "spouse": "Brad Pitt",
+      "children": "Shiloh Nouvel Jolie-Pitt, Maddox Chivan Jolie-Pitt",
+      "image": "data:image/jpeg;base64,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"
+    },
+    {
+      "name": "Tom Hanks",
+      "description": "Thomas Jeffrey 'Tom' Hanks is an American actor, producer, writer, and director. Hanks is best known for his roles in Big, A League of Their Own, Sleepless in Seattle, Forrest Gump, Apollo 13.",
+      "dob": "July 9, 1956",
+      "country": "United States",
+      "height": "1.83 m",
+      "spouse": "Rita Wilson",
+      "children": "Colin Hanks, Chet Hanks, Elizabeth Ann Hanks, Truman Theodore Hanks",
+      "image": "https://4.imimg.com/data4/MD/AX/NSDMERP-3937584/1469205003p1-250x250.png"
+    },
+    {
+      "name": "Will Smith",
+      "description": "Willard Carroll 'Will' Smith, Jr. is an American actor, producer, and rapper. He has enjoyed success in television, film, and music.",
+      "dob": "September 25, 1968",
+      "country": "United States",
+      "height": "1.88 m",
+      "spouse": "Jada Pinkett Smith",
+      "children": "Jaden Smith, Willow Smith, Trey Smith",
+      "image": "http://microblogging.wingnity.com/JSONParsingTutorial/will.jpg"
+    }
+  ]
+}
