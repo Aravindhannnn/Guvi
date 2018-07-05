@@ -1,0 +1,15 @@
+{
+"id":1,
+"name":"Aravind",
+"friends":[
+{
+"fname":"Ashwin"
+},
+{
+"fname":"Bharath"
+},
+{
+"fname":"Bala"
+}
+]
+}
